@@ -1,0 +1,41 @@
+img	{
+	display: none;
+}
+
+header {
+	background-image: url(https://prog-8.com/images/html/advanced/top.png);
+	background-size: cover;
+	height: 400px;
+	color: white;
+}
+
+h1 {
+	opacity: 0.7;
+}
+
+.top-contents {
+	text-align: center;
+	padding: 50px 0 30px 0;
+}
+
+.top-contents p {
+	opacity: 0.7;
+}
+
+.btn {
+	padding: 10px 30px;
+	width: 100px;
+	color: red;
+	background-color: green;
+	text-align: center; 
+	box-shadow: 0px 10px #000000;
+	border-radius: 8px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+
+.btn:active {
+	position: relative;
+	top: 10px;
+	box-shadow: none;
+}
